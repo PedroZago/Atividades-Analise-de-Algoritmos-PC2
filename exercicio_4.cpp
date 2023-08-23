@@ -1,14 +1,15 @@
 #include <iostream>
+
 using namespace std;
 
 int main()
 {
-  float grade;
+  int e;
 
-  cout << "Sua nota: ";
-  cin >> grade;
+  cout << "Quantidade de erros: ";
+  cin >> e;
 
-  grade >= 7 ? (cout << "Aprovado") : (cout << "Reprovado");
+  e == 1 ? (cout << e << " erro detectado") : (cout << e << " erros detectados") << endl;
 
   return 0;
 }
